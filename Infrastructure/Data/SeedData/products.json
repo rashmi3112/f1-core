@@ -1,0 +1,416 @@
+[
+    {
+        "Name": "Box box Pop socket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 300,
+        "ImageUrl": "/images/products/box-pop-socket.jpg",
+        "Type": "Pop socket",
+        "Brand": "Etsy",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Ferrari Pop socket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 300,
+        "ImageUrl": "/images/products/ferrari-pop-socket.jpg",
+        "Type": "Pop socket",
+        "Brand": "Etsy",
+        "QtyInStock": 57
+    },
+    {
+        "Name": "Mclaren Pop socket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 300,
+        "ImageUrl": "/images/products/mclaren-pop-socket.jpg",
+        "Type": "Pop socket",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Tyre Pop socket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 300,
+        "ImageUrl": "/images/products/tyre-pop-socket.jpg",
+        "Type": "Pop socket",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Box box tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 800,
+        "ImageUrl": "/images/products/box-tshirt.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Daniel Riccardio graphic tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 780,
+        "ImageUrl": "/images/products/dr3-tshirt.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "F1 repeat tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1000,
+        "ImageUrl": "/images/products/f1-rep-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Ferrari tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/ferrari-tshirt.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "McLaren tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/mclaren-tshirt.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Mercedes tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1250,
+        "ImageUrl": "/images/products/merc-tshirt.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Lando Norris Baseball tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1850,
+        "ImageUrl": "/images/products/norris-baseball-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Carlos Sainz Black 55 helmet tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/sainz-55-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "F1 car white tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 650,
+        "ImageUrl": "/images/products/f1-tee-wtor.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Redbull racing tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/redbull-tshirt.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "F1 all circuit tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/circuit-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "DRS enabled tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/drs-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Aryton Senna tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1050,
+        "ImageUrl": "/images/products/senna-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "Daniel Riccardio graphic Black tshirt",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/dr3-tee.jpg",
+        "Type": "Tshirt",
+        "Brand": "Formula store",
+        "QtyInStock": 67
+    },
+    {
+        "Name": "F1 car sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 250,
+        "ImageUrl": "/images/products/f1-cae-sticker-collec.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Lando Norris sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 299,
+        "ImageUrl": "/images/products/norris-sticker-collection.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 350,
+        "ImageUrl": "/images/products/sticker-collec-1.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 350,
+        "ImageUrl": "/images/products/sticker-collec-2.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Driver Sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 350,
+        "ImageUrl": "/images/products/driver--sticker-collec.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Ferraro Sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 350,
+        "ImageUrl": "/images/products/ferrari-sticker-collec.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Mercedes Sticker collection",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 350,
+        "ImageUrl": "/images/products/merc-sticker-collec.jpg",
+        "Type": "Stickers",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Ferrari Mobile cover",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 450,
+        "ImageUrl": "/images/products/ferrari-cover.jpg",
+        "Type": "Mobile cover",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Max Verstappen Mobile cover",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 550,
+        "ImageUrl": "/images/products/max-cover.jpg",
+        "Type": "Mobile cover",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Ferrari Mobile cover",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 650,
+        "ImageUrl": "/images/products/ferrari-cover2.jpg",
+        "Type": "Mobile cover",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Carlos Sainz Mobile cover",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 450,
+        "ImageUrl": "/images/products/sainz-cover.jpg",
+        "Type": "Mobile cover",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Lando Norris Mobile cover",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 450,
+        "ImageUrl": "/images/products/norris-cover.jpg",
+        "Type": "Mobile cover",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Ferrari Jacket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 2450,
+        "ImageUrl": "/images/products/ferrari-jacket.jpg",
+        "Type": "Jacket",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Redbull racing racer Jacket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 3450,
+        "ImageUrl": "/images/products/redbull-jacket.jpg",
+        "Type": "Jacket",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Ferrari Racer Jacket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 4450,
+        "ImageUrl": "/images/products/ferrari-racer-jacket.jpg",
+        "Type": "Jacket",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "McLaren Racer Jacket",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 2450,
+        "ImageUrl": "/images/products/mclaren-racer-jacket.jpg",
+        "Type": "Jacket",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Redbull racing hoodie",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1250,
+        "ImageUrl": "/images/products/redbull-hoodie.jpg",
+        "Type": "Hoodie",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "McLaren hoodie",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1250,
+        "ImageUrl": "/images/products/mclaren-hoodie.jpg",
+        "Type": "Hoodie",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Mercedes hoodie",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 1250,
+        "ImageUrl": "/images/products/mercedes-hoodie.jpg",
+        "Type": "Hoodie",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Charles Leclerc Mini Helmet",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/lec-mini-helmet.jpg",
+        "Type": "Mini Helmet",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Lando Norris Mini Helmet",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 750,
+        "ImageUrl": "/images/products/norris-mini-helmet.jpg",
+        "Type": "Mini Helmet",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Carlos Sainz Mini Helmet",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 850,
+        "ImageUrl": "/images/products/sainz-mini-helmet.jpg",
+        "Type": "Mini Helmet",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Lewis Hamilton Mini Helmet",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/hamilton-mini-helmet.jpg",
+        "Type": "Mini Helmet",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Redbull Cap",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/redbull-cap.jpg",
+        "Type": "Cap",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Carlos Sainz Chili Limited edition Ferrari Cap",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/chili-ferrari-cap.jpg",
+        "Type": "Cap",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Mercedes Cap",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/merc-cap.jpg",
+        "Type": "Cap",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Oscar Piastri Cap",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/piastri-cap.jpg",
+        "Type": "Cap",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    },
+    {
+        "Name": "Ferrari Cap",
+        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Price": 950,
+        "ImageUrl": "/images/products/ferrari-cap.jpg",
+        "Type": "Cap",
+        "Brand": "Formula store",
+        "QtyInStock": 37
+    }
+]
