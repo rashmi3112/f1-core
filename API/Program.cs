@@ -19,10 +19,11 @@ builder.Services.AddCors();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseMiddleware<ExceptionMiddleware>();
-
+//The cors should be before middleware
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod()
     .WithOrigins("http://localhost:4200","https://localhost:4200"));
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
 
