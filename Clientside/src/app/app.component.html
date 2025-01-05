@@ -1,16 +1,5 @@
 <app-header></app-header>
 
 <div class="container mt-6">
-    <h2 class="text-3xl font-bold underline">{{title}}</h2>
-    <ul>
-        @for (product of products; track product.id) {
-            <li>{{product.name}}</li>
-            <li><img src="{{product.imageUrl}}" alt=""></li>
-            <li>{{product.description}}</li>
-            <li>{{product.brand}}</li>
-            <li>{{product.type}}</li>
-            <li>{{product.price}}</li>
-            <br>
-        }
-    </ul>
+    <app-shop></app-shop>
 </div>
