@@ -32,10 +32,26 @@
     color: #7d00fa;
 }
 
+.mdc-button, .mdc-raised-button, .mdc-stroked-button, .mdc-flat-button{
+    @apply rounded-md
+}
+
 button.match-input-height {
     height: var(--mat-form-field-container-height);
 }
 
 .mdc-notched-outline__notch {
     border-right-style: none !important;
+}
+
+.mat-mdc-snack-bar-container.snack-error {
+    --mdc-snackbar-container-color: red;
+    --mat-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
+}
+
+.mat-mdc-snack-bar-container.snack-success {
+    --mdc-snackbar-container-color: green;
+    --mat-snack-bar-button-color: #fff;
+    --mdc-snackbar-supporting-text-color: #fff;
 }
