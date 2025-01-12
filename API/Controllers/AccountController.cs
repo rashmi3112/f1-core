@@ -9,8 +9,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
 public class AccountController(SignInManager<AppUser> signInManager) : BaseApiController
 {
     [HttpPost("register")]
@@ -48,7 +46,6 @@ public class AccountController(SignInManager<AppUser> signInManager) : BaseApiCo
         return NoContent();
     }
 
-    [Authorize]
     [HttpGet("user-info")]
     public async Task<ActionResult> GetUserInfo()
     {
@@ -65,7 +62,7 @@ public class AccountController(SignInManager<AppUser> signInManager) : BaseApiCo
         });
     }
 
-    [HttpGet]
+    [HttpGet("auth-state")]
     public ActionResult GetAuthState()
     {
         return Ok(new {IsAuthenticated = User.Identity?.IsAuthenticated ?? false});

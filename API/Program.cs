@@ -17,7 +17,16 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 });
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddCors();
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200", "https://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
+});
 builder.Services.AddSingleton<IConnectionMultiplexer>(config => 
 {
     var connString = builder.Configuration.GetConnectionString("Redis") 
@@ -34,8 +43,10 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 //The cors should be before middleware
-app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowCredentials()
-    .WithOrigins("http://localhost:4200","https://localhost:4200"));
+app.UseCors("FrontendPolicy");
+
+app.UseAuthentication(); // Add authentication middleware
+app.UseAuthorization();  // Add authorization middleware
 
 app.UseMiddleware<ExceptionMiddleware>();
 
