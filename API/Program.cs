@@ -1,4 +1,5 @@
 using API.Middleware;
+using API.SignalR;
 using Core.Entities;
 using Core.Interfaces;
 using Infrastructure.Data;
@@ -40,6 +41,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<StoreContext>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -53,7 +55,9 @@ app.UseAuthorization();  // Add authorization middleware
 app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
- app.MapGroup("api").MapIdentityApi<AppUser>();   // api/login
+app.MapGroup("api").MapIdentityApi<AppUser>();   // api/login
+app.MapHub<NotificationHub>("/hub/notifications");
+
 
 try
 {
