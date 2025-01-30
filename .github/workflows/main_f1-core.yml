@@ -56,9 +56,8 @@ jobs:
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_01875fdd-bfb3-4270-80c3-3fc26c7cfc4d }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1febfba3-afb2-448a-83d4-c7eddba720b7 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_37CFCF4FE2B3492CB22DF7B029181364 }}
-          auth-type: "oidc" # This forces the login to use OIDC instead of Service Principal
-          
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_d98e03c5-3be0-45ce-8456-952ff634d99e }}
+
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
