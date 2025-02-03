@@ -80,85 +80,87 @@ public class PaymentsController(IPaymentService paymentService,
 
     private async Task HandlePaymentSucceeded(PaymentIntent intent)
     {
-        if (intent.Status != "succeeded") return;
+        // if (intent.Status != "succeeded") return;
 
-        logger.LogInformation("Handling PaymnetIntent with ID: {PaymentIntentId}", intent.Id);
+        // logger.LogInformation("Handling PaymnetIntent with ID: {PaymentIntentId}", intent.Id);
 
-        var spec = new OrderSpecification(intent.Id, true);
-        var order = await unit.Repository<Order>().GetEntityWithSpec(spec);
+        // var spec = new OrderSpecification(intent.Id, true);
+        // var order = await unit.Repository<Order>().GetEntityWithSpec(spec);
 
-        if (order == null)
-        {
-            logger.LogError("Order not found PaymentIntentId: {PaymentIntentId}", intent.Id);
-            throw new Exception("Order not found");
-        }
-
-        logger.LogInformation("Order found for PaymentIntentId: {PaymentIntentId}, orderId: {OrderId}", intent.Id, order.Id);
-
-        if ((long)order.GetTotal() * 100 != intent.Amount)
-        {
-            logger.LogWarning("Payment amount mismatch expected: {Expected}, Actual: {Actual}",
-                (long)order.GetTotal() * 100, intent.Amount);
-            order.Status = OrderStatus.PaymentMismatched;
-        }
-        else
-        {
-            order.Status = OrderStatus.PaymentReceived;
-        }
-
-        await unit.Complete();
-
-        var connectionId = NotificationHub.GetConnectionIdByEmail(order.BuyerEmail);
-
-        if (!string.IsNullOrEmpty(connectionId))
-        {
-            // logger.LogInformation("Sending notification to user with connectionId: {ConnectionId}", connectionId);
-            // await hubContext.Clients.Client(connectionId).SendAsync("OrderCompleteNotification", order.ToDto());
-
-            try
-            {
-                await hubContext.Clients.Client(connectionId)
-                    .SendAsync("OrderCompleteNotification", order.ToDto());
-                logger.LogInformation("Notification sent successfully to ConnectionId: {ConnectionId}", connectionId);
-            }
-            catch (Exception ex)
-            {
-                logger.LogError(ex, "Failed to send notification via SignalR for ConnectionId: {ConnectionId}", connectionId);
-            }
-
-        }
-        else
-        {
-            logger.LogWarning("No connection found for user: {BuyerEmail}", order.BuyerEmail);
-        }
-
-        // if (intent.Status == "succeeded")
+        // if (order == null)
         // {
-        //     var spec = new OrderSpecification(intent.Id, true);
+        //     logger.LogError("Order not found PaymentIntentId: {PaymentIntentId}", intent.Id);
+        //     throw new Exception("Order not found");
+        // }
 
-        //     var order = await unit.Repository<Order>().GetEntityWithSpec(spec)
-        //         ?? throw new Exception("Order not found");
+        // logger.LogInformation("Order found for PaymentIntentId: {PaymentIntentId}, orderId: {OrderId}", intent.Id, order.Id);
 
-        //     if ((long)order.GetTotal() * 100 != intent.Amount)
-        //     {
-        //         order.Status = OrderStatus.PaymentMismatched;
-        //     }
-        //     else 
-        //     {
-        //         order.Status = OrderStatus.PaymentReceived;
-        //     }
+        // if ((long)order.GetTotal() * 100 != intent.Amount)
+        // {
+        //     logger.LogWarning("Payment amount mismatch expected: {Expected}, Actual: {Actual}",
+        //         (long)order.GetTotal() * 100, intent.Amount);
+        //     order.Status = OrderStatus.PaymentMismatched;
+        // }
+        // else
+        // {
+        //     order.Status = OrderStatus.PaymentReceived;
+        // }
 
-        //     await unit.Complete();
+        // await unit.Complete();
 
-        //     //SignalR
-        //     var connectionId = NotificationHub.GetConnectionIdByEmail(order.BuyerEmail);
+        // var connectionId = NotificationHub.GetConnectionIdByEmail(order.BuyerEmail);
 
-        //     if (!string.IsNullOrEmpty(connectionId))
+        // if (!string.IsNullOrEmpty(connectionId))
+        // {
+        //     // logger.LogInformation("Sending notification to user with connectionId: {ConnectionId}", connectionId);
+        //     // await hubContext.Clients.Client(connectionId).SendAsync("OrderCompleteNotification", order.ToDto());
+
+        //     try
         //     {
         //         await hubContext.Clients.Client(connectionId)
         //             .SendAsync("OrderCompleteNotification", order.ToDto());
+        //         logger.LogInformation("Notification sent successfully to ConnectionId: {ConnectionId}", connectionId);
         //     }
+        //     catch (Exception ex)
+        //     {
+        //         logger.LogError(ex, "Failed to send notification via SignalR for ConnectionId: {ConnectionId}", connectionId);
+        //     }
+
         // }
+        // else
+        // {
+        //     logger.LogWarning("No connection found for user: {BuyerEmail}", order.BuyerEmail);
+        // }
+
+        if (intent.Status == "succeeded")
+        {
+            var spec = new OrderSpecification(intent.Id, true);
+
+            var order = await unit.Repository<Order>().GetEntityWithSpec(spec)
+                ?? throw new Exception("Order not found");
+
+            var orderTotalInCents = (long)Math.Round(order.GetTotal() * 100,
+                MidpointRounding.AwayFromZero);
+            if (orderTotalInCents != intent.Amount)
+            {
+                order.Status = OrderStatus.PaymentMismatched;
+            }
+            else 
+            {
+                order.Status = OrderStatus.PaymentReceived;
+            }
+
+            await unit.Complete();
+
+            //SignalR
+            var connectionId = NotificationHub.GetConnectionIdByEmail(order.BuyerEmail);
+
+            if (!string.IsNullOrEmpty(connectionId))
+            {
+                await hubContext.Clients.Client(connectionId)
+                    .SendAsync("OrderCompleteNotification", order.ToDto());
+            }
+        }
     }
 
     private Event ConstructStripeEvent(string json)

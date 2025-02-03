@@ -164,7 +164,8 @@ export class CheckoutComponent implements OnInit, OnDestroy {
 
       },
       deliveryMethodId: cart.deliveryMethodId,
-      shippingAddress
+      shippingAddress,
+      discount: this.cartService.totals()?.discount
     }
   }
 
