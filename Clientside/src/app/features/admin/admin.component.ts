@@ -76,7 +76,7 @@ export class AdminComponent implements OnInit{
       'Are you sure you want to refund this order?'
     )
 
-    if (confirmed) this.adminService.refundOrder(id);
+    if (confirmed) this.refundOrder(id);
   }
 
   refundOrder(id: number) {
