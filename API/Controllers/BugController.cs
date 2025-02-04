@@ -47,4 +47,22 @@ public class BugController : BaseApiController
 
         return Ok("Hello " + name + " welcome to F1 Core.");
     }
+
+    [Authorize(Roles = "Admin")]
+    [HttpGet("admin")]
+    public IActionResult GetAdmin()
+    {
+        var name = User.FindFirst(ClaimTypes.Name)?.Value;
+        var id = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var isAdmin = User.IsInRole("Admin");
+        var roles = User.FindFirstValue(ClaimTypes.Role);
+
+        return Ok(new
+        {
+            name,
+            id,
+            isAdmin,
+            roles
+        });
+    }
 }

@@ -174,7 +174,7 @@
         "Name": "Lando Norris sticker collection",
         "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
         "Price": 299,
-        "ImageUrl": "/images/products/norris-sticker-collection.jpg",
+        "ImageUrl": "/images/products/norris-sticker-collection.png",
         "Type": "Stickers",
         "Brand": "Formula store",
         "QtyInStock": 37
@@ -246,7 +246,7 @@
         "Name": "Ferrari Mobile cover",
         "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
         "Price": 650,
-        "ImageUrl": "/images/products/ferrari-cover2.jpg",
+        "ImageUrl": "/images/products/ferrrari-cover2.jpg",
         "Type": "Mobile cover",
         "Brand": "Formula store",
         "QtyInStock": 37
@@ -291,7 +291,7 @@
         "Name": "Ferrari Racer Jacket",
         "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
         "Price": 4450,
-        "ImageUrl": "/images/products/ferrari-racer-jacket.jpg",
+        "ImageUrl": "/images/products/ferrari-racer-jakcet.jpg",
         "Type": "Jacket",
         "Brand": "Formula store",
         "QtyInStock": 37
@@ -327,7 +327,7 @@
         "Name": "Mercedes hoodie",
         "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
         "Price": 1250,
-        "ImageUrl": "/images/products/mercedes-hoodie.jpg",
+        "ImageUrl": "/images/products/merc-hoodie.jpg",
         "Type": "Hoodie",
         "Brand": "Formula store",
         "QtyInStock": 37
